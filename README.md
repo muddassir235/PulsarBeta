@@ -1,3 +1,2 @@
 # PulsarBeta
-A Productivity Application in the making.
-        |
+A Productivity Application in the making ..... .... ... .. .
