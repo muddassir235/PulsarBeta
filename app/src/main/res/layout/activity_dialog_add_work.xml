@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.muddassir.android.pulsarbeta.DialogAddWork">
+
+    <TextView android:text="Add a new course/Job" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_of_new_work"
+        android:hint="Name of Job or course"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hours_per_week_work"
+        android:hint="Hours per week of New Work"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_of_weeks_work"
+        android:hint="Number of Weeks"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/path_of_picture_work"
+        android:hint="Path of Picture"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/work_dialog_cancel_button"
+            android:text="Cancel"
+            android:elegantTextHeight="false"
+            android:elevation="0dp" />
+        <Button
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/work_dialog_add_button"
+            android:text="Add"
+            android:elevation="0dp"
+            android:elegantTextHeight="false" />
+
+    </LinearLayout>
+</LinearLayout>

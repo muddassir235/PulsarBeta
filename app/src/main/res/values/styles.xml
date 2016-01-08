@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/dark_blue</item>
+
+        <item name="android:navigationBarColor">@color/light_blue</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/action_bar_pulsar_small</item>
+    </style>
+
+
+
+</resources>
